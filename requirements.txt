@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit>=1.28.0
+torch>=2.1.0
+torchaudio>=2.1.0
+torchvision>=0.16.0
+
+# Whisper and audio processing
+git+https://github.com/openai/whisper.git
+ffmpeg-python>=0.2.0
+soundfile>=0.12.1
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.11.3
+pandas>=2.1.0
+
+# File handling
+python-magic>=0.4.27
+watchdog>=3.0.0
+
+# Optional but recommended for better performance
+numba>=0.58.0
